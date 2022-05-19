@@ -28,19 +28,8 @@ const ProductDetails = ({product, products}) => {
                 </div>
             </div>
             <div className='product-detail-desc'>
-                <h1>{name}</h1>
-                <div className='reviews'>
-                    <div>
-                        <AiFillStar />
-                        <AiFillStar />
-                        <AiFillStar />
-                        <AiFillStar />
-                        <AiOutlineStar />
-                    </div>
-                
-                <p>
-                    (20)
-                </p>
+            <h1>{name}</h1>
+            <div className='reviews'>
             </div>
             <h4>Szczegóły: </h4>
             <p>{details}</p>
